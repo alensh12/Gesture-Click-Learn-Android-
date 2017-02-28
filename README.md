@@ -8,12 +8,12 @@ Android app for gesture detecting and onclickListener
       import android.support.v4.view.GestureDetectorCompat;
       import android.util.TypedValue;
       import android.view.GestureDetector;
-       import android.view.MotionEvent;
+      import android.view.MotionEvent;
       import android.widget.Button;
-     import android.widget.RelativeLayout;
-     import android.widget.TextView;
-     import android.view.View;
-
+      import android.widget.RelativeLayout;
+      import android.widget.TextView;
+      import android.view.View;
+ 
 
     public class MainActivity extends AppCompatActivity implements GestureDetector.OnDoubleTapListener,GestureDetector.OnGestureListener{
     public TextView alenstext;
