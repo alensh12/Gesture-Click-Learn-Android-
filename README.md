@@ -17,12 +17,12 @@ import android.widget.TextView;
 import android.view.View;
 
 
-public class MainActivity extends AppCompatActivity implements GestureDetector.OnDoubleTapListener,GestureDetector.OnGestureListener{
+    public class MainActivity extends AppCompatActivity implements GestureDetector.OnDoubleTapListener,GestureDetector.OnGestureListener{
     public TextView alenstext;
     private GestureDetectorCompat gesture;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+     @Override
+        protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
